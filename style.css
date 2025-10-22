@@ -29,8 +29,9 @@ body{
   line-height:1.45;
   padding: clamp(1rem, 2.5vw, 3rem);
   display:flex;
+  flex-direction: column; /* <-- ensure header and main stack vertically */
   align-items:center;
-  justify-content:center;
+  justify-content:flex-start; /* keep content toward the top */
 }
 
 /* Page container */
